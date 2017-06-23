@@ -3,8 +3,9 @@ import {
 	View,
 	StyleSheet,
 } from 'react-native';
-import SignUpID from './componentes/SignUpID';
 import LogIn from './componentes/LogIn';
+import SignUpID from './componentes/SignUpID';
+import SignUpInfo from './componentes/SignUpInfo';
 
 
 export default class Cadastro extends Component {
@@ -14,8 +15,7 @@ export default class Cadastro extends Component {
 		return (
 			<View>
 
-				<LogIn/>
-				{/*<SignUpID/>*/}
+				<SignUpInfo/>
 
 			</View>
 		);

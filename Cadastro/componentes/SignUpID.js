@@ -124,7 +124,7 @@ const styles = StyleSheet.create({
 	
 	next_button: {
 		// backgroundColor: "blue",
-		marginTop: 160,
+		marginTop: 115,
 		marginRight: 25,
 		width: 60,
 		height: 60,
